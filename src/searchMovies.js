@@ -38,7 +38,7 @@ export default function SearchMovies() {
           Search
         </button>
       </form>
-      <div>
+      <div className="card-list">
         {movies
           .filter((movie) => movie.poster_path)
           .map((movie) => (
